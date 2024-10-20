@@ -1,0 +1,38 @@
+.card{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.card h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+
+  .text-color{
+    color: var(--secondary-color);
+  }
+
+  .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.links_box{
+    width: 250px;
+    height: 50px;
+}
+
+.link{
+    color: var(--link-color);
+    text-decoration: none;
+    border-right: 1px dashed var(--secondary-color);
+    font-weight: bold;
+}
+
+.link:nth-child(3){
+    border: none;
+}
